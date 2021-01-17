@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import * as Font from "expo-font";
 import AppLoading from "expo-app-loading";
 
-import { MainLayout } from "./src/MainLayout";
+import { MainLayout } from "./src/js/MainLayout";
 import { TodoState } from "./src/js/context/todo/TodoState";
 import { ScreenState } from "./src/js/context/screen/ScreenState";
 

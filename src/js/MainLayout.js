@@ -8,11 +8,11 @@ import {
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import Constants from "expo-constants";
-import { Navbar } from "./js/components/Navbar";
-import { THEME } from "./js/theme";
-import { MainScreen } from "./js/screens/MainScreen";
-import { TodoScreen } from "./js/screens/TodoScreen";
-import { ScreenContext } from "./js/context/screen/screenContext";
+import { Navbar } from "./components/Navbar";
+import { THEME } from "./theme";
+import { MainScreen } from "./screens/MainScreen";
+import { TodoScreen } from "./screens/TodoScreen";
+import { ScreenContext } from "./context/screen/screenContext";
 
 export function MainLayout() {
   const { todoId } = useContext(ScreenContext);
